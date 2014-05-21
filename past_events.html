@@ -1,0 +1,34 @@
+---
+layout: post-index
+title: "Past Events"
+description: "Describe this nonsense."
+tags: [Jekyll, theme, themes, responsive, blog, modern]
+image:
+  feature: mil-header-3.jpg
+---
+
+
+{% for event in site.categories.past_event reversed %}
+<article class="entry{% if event.milsec == true %} milsec-event{% endif %}">
+  <header>
+    {% if event.link %}
+      <h1 class="entry-title"><a href="{{ site.url }}{{ event.url }}" rel="bookmark" title="{{ event.title }}"><i class="icon-double-angle-right"></i></a> <a href="{{ event.link }}">{{ event.title }}</a></h1>
+    {% else %}
+      <h1 class="entry-title"><a href="{{ site.url }}{{ event.url }}" rel="bookmark" title="{{ event.title }}" itemprop="url">{{ event.title }}</a></h1>
+    {% endif %}
+  </header>
+  <div class="entry-content">
+    <ul>
+      {% if event.when %}<li><span class="note_type">When:</span> {{ event.when }}</li>{% endif %}
+      {% if event.where %}<li><span class="note_type">Where:</span> {{ event.where }}</li>{% endif %} 
+      {% if event.what %}<li><span class="note_type">What:</span> {{ event.what }}</li>{% endif %} 
+    </ul>
+    {% if event.rsvp.text %}
+      {% if event.rsvp.url %}<a href="{{ event.rsvp.url }}">{{ event.rsvp.text }}</a>
+      {% else %}{{ event.rsvp.text }}{% endif %}
+    {% endif %}
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+{% endfor %}
+
+<a href="{{ site.url }}/index.html" class="btn btn-info">See Future Events</a>   
