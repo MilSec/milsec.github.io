@@ -6,19 +6,19 @@
     
     
     <url>
-        <loc>http://milsec.github.io/404.html</loc>
-    </url>
-    
-    <url>
         <loc>http://milsec.github.io/about/</loc>
     </url>
     
     <url>
-        <loc>http://milsec.github.io/add_event.html</loc>
+        <loc>http://milsec.github.io/tags/</loc>
     </url>
     
     <url>
-        <loc>http://milsec.github.io/feed.xml</loc>
+        <loc>http://milsec.github.io/404.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://milsec.github.io/posts/</loc>
     </url>
     
     <url>
@@ -30,15 +30,15 @@
     </url>
     
     <url>
-        <loc>http://milsec.github.io/posts/</loc>
+        <loc>http://milsec.github.io/feed.xml</loc>
+    </url>
+    
+    <url>
+        <loc>http://milsec.github.io/add_event.html</loc>
     </url>
     
     <url>
         <loc>http://milsec.github.io/sitemap.xml</loc>
-    </url>
-    
-    <url>
-        <loc>http://milsec.github.io/tags/</loc>
     </url>
     
 

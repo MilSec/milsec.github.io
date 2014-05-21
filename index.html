@@ -6,7 +6,7 @@ image:
   feature: mil-header-1.jpg
 ---
 
-{% assign events = site.categories.event | sort: "sort_time" | reverse %}
+{% assign events = site.categories.event  %}
 {% for event in events %}
 <article class="entry{% if event.milsec == true %} milsec-event{% endif %}">
   <header>
