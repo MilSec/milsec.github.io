@@ -1,6 +1,6 @@
 ---
 layout: page
-category: past_event
+category: event
 tags: [MilSec, Event]
 sort_time: 201406241800
 title: "MilSec June Meetup"
