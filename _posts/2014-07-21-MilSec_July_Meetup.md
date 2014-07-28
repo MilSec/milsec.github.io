@@ -3,7 +3,7 @@ layout: page
 category: event
 tags: [MilSec, Event]
 sort_time: 201406241800
-title: "MilSec June Meetup"
+title: "MilSec July Meetup"
 details:
   when: "July 29, 2014 at 6:00 PM"
   where: "<a href='http://www.mosirishpub.com/wauwatosa/'>Mo's Irish Pub in Wauwatosa</a>"
