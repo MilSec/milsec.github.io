@@ -14,6 +14,6 @@ rsvp:
 milsec: true
 
 ---
-MilSec will be meeting at [Mo's Irish Pub in Wauwatosa](http://www.mosirishpub.com/wauwatosa/) at 6:00 PM on June 24th (last Tuesday of the month) for food and drinks. Appetizers are on us. As always, anyone is welcome.
+MilSec will be meeting at [Mo's Irish Pub in Wauwatosa](http://www.mosirishpub.com/wauwatosa/) at 6:00 PM on July 29th (last Tuesday of the month) for food and drinks. Appetizers are on us. As always, anyone is welcome.
 
 Although we don't require an RSVP, it helps to provide a headcount to the restaurant the morning of the event. Just [send us an email](mailto:{{ site.owner.email }}) if you plan on being there.
