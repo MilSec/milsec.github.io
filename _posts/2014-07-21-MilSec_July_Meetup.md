@@ -5,7 +5,7 @@ tags: [MilSec, Event]
 sort_time: 201406241800
 title: "MilSec June Meetup"
 details:
-  when: "June 24, 2014 at 6:00 PM"
+  when: "July 29, 2014 at 6:00 PM"
   where: "<a href='http://www.mosirishpub.com/wauwatosa/'>Mo's Irish Pub in Wauwatosa</a>"
   what: "Meetup at a local area pub to just hang out"
 rsvp:
