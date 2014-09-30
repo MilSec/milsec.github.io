@@ -15,6 +15,6 @@ Recently, there has been a new addition to the OWASP Mobile Top Ten Risks. At Ap
 
 This talk is by  Matt Clemens. Matt Clemens is a Security Solutions Architect for Arxan Technologies, focusing on application security. Before joining Arxan in 2013 Matt spent 20 years in a variety of roles in the semiconductor and embedded processor industries. 
 
-Please use the 3rd street entrance. Parking is available just north of the intersection of Freshwater Way and S 3rd Street.
+We will be meeting at 247 W. Freshwater Way (Milwaukee). Please use the 3rd street entrance. Parking is available just north of the intersection of Freshwater Way and S 3rd Street.
 
 Pizza will be provided.
