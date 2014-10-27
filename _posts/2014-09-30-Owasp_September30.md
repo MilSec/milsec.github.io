@@ -1,6 +1,6 @@
 ---
 layout: page
-category: event
+category: past_event
 tags: [Event, OWASP]
 sort_time: 201409300000
 title: "OWASP: All of the bad things hackers can do to your unprotected mobile apps"
