@@ -1,6 +1,6 @@
 ---
 layout: page
-category: event
+category: past_event
 tags: [MilSec, Event]
 sort_time: 201410281830
 title: "MilSec October Meetup"
