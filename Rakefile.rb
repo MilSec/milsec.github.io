@@ -26,21 +26,31 @@ task :new_post, :title do |t, args|
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  tags = get_stdin("Enter tags to classify your post (comma separated): ")
+  #tags = get_stdin("Enter tags to classify your post (comma separated): ")
+  eventDateTime = get_stdin("Event date (fmt:201502261800): ")
   puts "Creating new post: #{filename}"
+
   open(filename, 'w') do |post|
-    post.puts "---"
-    post.puts "layout: post"
-    post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-    post.puts "modified: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
-    post.puts "tags: [#{tags}]"
-    post.puts "image:"
-    post.puts "  feature: "
-    post.puts "  credit: "
-    post.puts "  creditlink: "
-    post.puts "comments: "
-    post.puts "share: "
-    post.puts "---"
+    post.puts "---
+layout: post
+category: event
+tags: [MilSec, Event]
+sort_time: #{eventDateTime}
+title: \"#{title.gsub(/&/,'&amp;')}\"
+modified: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}
+details:
+  when: \"February 26, 2015 at 6:00 PM\"
+  where: \"<a href='http://www.mosirishpub.com/wauwatosa/'>Mo's Irish Pub in Wauwatosa</a>\"
+  what: \"Meetup at a local area pub to just hang out\"
+rsvp:
+  text: \"RSVP is completely optional, but it can help keep the group at the same table\"
+  url: site.owner.email
+milsec: true
+---
+MilSec will be meeting at []() at 6:00PM on XXXX 26th (last Thursday of the month) for food and drinks. As always, anyone is welcome.
+
+Although we don't require an RSVP, it helps to provide a headcount to the restaurant the morning of the event. Just [send us an email](mailto:{{ site.owner.email }}) if you plan on being there.
+"
   end
 end
 
