@@ -1,6 +1,7 @@
 require "rubygems"
 require "bundler/setup"
 require "stringex"
+require "date"
 
 ## -- Config -- ##
 
@@ -26,8 +27,9 @@ task :new_post, :title do |t, args|
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  #tags = get_stdin("Enter tags to classify your post (comma separated): ")
-  eventDateTime = get_stdin("Event date (fmt:201502261800): ")
+  date = get_stdin("Event date (fmt:2015-01-26): ")
+  year, month, day = date.split("-")
+  monthName = Date::MONTHNAMES[month.to_i]
   puts "Creating new post: #{filename}"
 
   open(filename, 'w') do |post|
@@ -35,11 +37,11 @@ task :new_post, :title do |t, args|
 layout: post
 category: event
 tags: [MilSec, Event]
-sort_time: #{eventDateTime}
+sort_time: #{year}#{month}#{day}1800
 title: \"#{title.gsub(/&/,'&amp;')}\"
 modified: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}
 details:
-  when: \"February 26, 2015 at 6:00 PM\"
+  when: \"#{monthName} #{day}, #{year} at 6:00 PM\"
   where: \"<a href='http://www.mosirishpub.com/wauwatosa/'>Mo's Irish Pub in Wauwatosa</a>\"
   what: \"Meetup at a local area pub to just hang out\"
 rsvp:
@@ -47,7 +49,7 @@ rsvp:
   url: site.owner.email
 milsec: true
 ---
-MilSec will be meeting at []() at 6:00PM on XXXX 26th (last Thursday of the month) for food and drinks. As always, anyone is welcome.
+MilSec will be meeting at []() at 6:00 PM on #{monthName}, #{day}th (last Thursday of the month) for food and drinks. As always, anyone is welcome.
 
 Although we don't require an RSVP, it helps to provide a headcount to the restaurant the morning of the event. Just [send us an email](mailto:{{ site.owner.email }}) if you plan on being there.
 "
