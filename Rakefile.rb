@@ -27,6 +27,11 @@ task :new_post, :title do |t, args|
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
+
+# Set last month to a past event
+cmd = %x[for i in _posts/*.md; do sed -i "" -e 's/category: event/category: past_event/' $i; done]
+puts cmd
+
   date = get_stdin("Event date (fmt:2015-01-26): ")
   year, month, day = date.split("-")
   monthName = Date::MONTHNAMES[month.to_i]
@@ -53,6 +58,7 @@ MilSec will be meeting at []() at 6:00 PM on #{monthName}, #{day}th (last Thursd
 
 Although we don't require an RSVP, it helps to provide a headcount to the restaurant the morning of the event. Just [send us an email](mailto:{{ site.owner.email }}) if you plan on being there.
 "
+
   end
 end
 
