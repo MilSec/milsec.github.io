@@ -7,7 +7,7 @@ title: "July MilSec Meetup"
 modified: 2015-07-27 20:13:18 -0500
 details:
   when: "July 30, 2015 at 6:00 PM"
-  where: "<a href='http://www.mosirishpub.com/wauwatosa/'>Mo's Irish Pub in Wauwatosa</a>"
+  where: "<a href='http://www.rockbottom.com/locations/milwaukee'>Rock Bottom</a>"
   what: "Meetup at a local area pub to just hang out"
 rsvp:
   text: "RSVP is completely optional, but it can help keep the group at the same table"
