@@ -1,6 +1,6 @@
 ---
 layout: post
-category: event
+category: past_event
 tags: [MilSec, Event]
 sort_time: 201507301800
 title: "July MilSec Meetup"
