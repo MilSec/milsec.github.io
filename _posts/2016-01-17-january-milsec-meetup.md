@@ -10,7 +10,7 @@ details:
   where: "<a href='http://ubertaproom.com/'>Uber Tap Room and Cheese Bar</a>"
   what: "Meetup at a local area pub to just hang out"
 rsvp:
-  text: "This month we're adding some hands-on hacking into the social. We'll be having a modified [Austin Hacker's Anonymous](http://takeonme.org/rules.html)-style meetup where everyone presents (5-10 mins max) of something they're researching, something new they learned or discuss something they're interested in learning. Be sure to bring your hacking gear!"
+  text: "This month we're adding some hands-on hacking into the social. We'll be having a modified Austin Hacker's Anonymous-style meetup where everyone presents (5-10 mins max) of something they're researching, something new they learned or discuss something they're interested in learning. Be sure to bring your hacking gear!"
   url: site.owner.email
 milsec: true
 ---
