@@ -1,6 +1,6 @@
 ---
 layout: post
-category: event
+category: past_event
 tags: [MilSec, Event]
 sort_time: 201501281800
 title: "January MilSec Meetup"
