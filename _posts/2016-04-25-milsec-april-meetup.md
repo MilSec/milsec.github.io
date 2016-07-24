@@ -1,6 +1,6 @@
 ---
 layout: post
-category: event
+category: past_event
 tags: [MilSec, Event]
 sort_time: 201604281800
 title: "MilSec April Meetup"
