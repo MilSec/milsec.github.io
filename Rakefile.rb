@@ -47,14 +47,14 @@ title: \"#{title.gsub(/&/,'&amp;')}\"
 modified: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}
 details:
   when: \"#{monthName} #{day}, #{year} at 6:00 PM\"
-  where: \"<a href='http://www.mosirishpub.com/wauwatosa/'>Mo's Irish Pub in Wauwatosa</a>\"
+  where: \"<a href='http://www.saloononcalhoun.com/home.php'>Saloon on Calhoun</a>\"
   what: \"Meetup at a local area pub to just hang out\"
 rsvp:
   text: \"RSVP is completely optional, but it can help keep the group at the same table\"
   url: site.owner.email
 milsec: true
 ---
-MilSec will be meeting at []() at 6:00 PM on #{monthName}, #{day}th (last Thursday of the month) for food and drinks. As always, anyone is welcome.
+MilSec will be meeting at [Saloon on Calhoun](http://www.saloononcalhoun.com/home.php) at 6:00 PM on #{monthName}, #{day}th (last Thursday of the month) for food and drinks. As always, anyone is welcome.
 
 Although we don't require an RSVP, it helps to provide a headcount to the restaurant the morning of the event. Just [send us an email](mailto:{{ site.owner.email }}) if you plan on being there.
 "
