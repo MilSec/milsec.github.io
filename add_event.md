@@ -8,7 +8,7 @@ image:
 MilSec wants to help bring people from different Milwaukee area security communities together. One way it can do this is by helping to promote other local events. If you want to add a local event to the site, there are a few ways you can do it.
 
 ### Option One: Email
-The easiest way to add an event to the website is just [email us at info@milsec.io](mailto:{{ site.owner.email }}) with all of the event details at least one week before you want the event posted. Please include:
+The easiest way to add an event to the website is just email us at [info@milsec.io](mailto:{{ site.owner.email }}) with all of the event details at least one week before you want the event posted. Please include:
 
 * What the event will be about
 * When the event will occur
