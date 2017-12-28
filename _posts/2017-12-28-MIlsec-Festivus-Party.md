@@ -1,7 +1,7 @@
 ---
 layout: post
 category: event
-tags: [MilSec, Event]
+tags: [MilSec, Event,Party,Holidays]
 sort_time: 201712281800
 title: "MilSec Festivus Party"
 details:
@@ -9,8 +9,8 @@ details:
   where: "<a href='https://www.facebook.com/pg/TheGarcade/about/'>The Garcade in Menomonee Falls</a>"
   what: "Milsec Festivus Party at The Garcade in Menomonee Falls"
 rsvp:
-  text: "A very big thank you to [CheckPoint Systems](https://checkpoint.com/) for sponsoring the party."
-  url: "mailto:info@milsec.io"
+  text: "A very big thank you to Checkpoint Systems for sponsoring the party."
+  url: "https://www.meetup.com/milsec/events/244997537/"
 milsec: true
 ---
 
