@@ -1,7 +1,7 @@
 ---
 layout: post
 category: event
-tags: [MilSec, Event,Party,Holidays]
+tags: [MilSec, Event]
 sort_time: 201712281800
 title: "MilSec January Meetup"
 details:
@@ -15,4 +15,4 @@ milsec: true
 ---
 This month's MilSec is sponsored by IBM Security so make sure you thank the guy from Big Blue for putting his corp card in the hat. Since it's still too cold, we'll be in the large dining room at roughly the same tables.  See everyone there!
 
-Although we don't require an RSVP, it helps to provide a headcount to the restaurant the morning of the event. Just [send us an email](mailto:{{ site.owner.email }}) if you plan on being there. Ot check out [meetup.com/milsec](https://meetup.com/milsec)
+Although we don't require an RSVP, it helps to provide a headcount to the restaurant the morning of the event. Just [send us an email](mailto:{{ site.owner.email }}) if you plan on being there. Out check out [meetup.com/milsec](https://meetup.com/milsec)
