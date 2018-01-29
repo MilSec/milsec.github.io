@@ -1,6 +1,6 @@
 ---
 layout: post
-category: event
+category: future_event
 tags: [MilSec, Event]
 sort_time: 201802221800
 title: "MilSec February Meetup"
