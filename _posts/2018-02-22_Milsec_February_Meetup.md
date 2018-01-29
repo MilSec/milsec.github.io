@@ -2,7 +2,7 @@
 layout: post
 category: event
 tags: [MilSec, Event]
-sort_time: 201802221800
+sort_time: 201801291200
 title: "MilSec February Meetup"
 details:
   when: "January 22, 2018 at 6:00 PM"
