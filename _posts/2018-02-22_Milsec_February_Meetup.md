@@ -12,7 +12,9 @@ rsvp:
   text: "RSVP using meetup or send us an [email](mailto:{{ site.owner.email }})"
   url: "https://www.meetup.com/milsec/events/246307903/"
 milsec: true
+
 ---
+
 No sponsors this month, but a big thank you to our recent sponsors for again picking up the tab of the last few events CheckPoint Systems, Palo Alto Networks, and IBM Security.  
 Additionaly, we're tossing about the idea of minor format changes to the meetup. You can vote for/against any proposed changes here. https://www.meetup.com/milsec/polls/1261442/
 
